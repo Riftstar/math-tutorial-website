@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html>
     <header>
-        <meta charset="utf-8">
-        <title>Maths Tutorials</title>
-        <link rel="stylesheet" type="text/css" href="styling.css">
+        <meta charset="utf-8"> <!-- Use standard charset -->
+        <title>Maths Tutorials</title> <!-- Confirm page title -->
+        <!-- Define the viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = yes"> 
+        <link rel="stylesheet" type="text/css" href="styling.css"> <!-- Link to the style sheet -->
     </header>
     <body>
-        <p>Test paragraph</p>
+        <div id="container">
+            <div id="header">
+                <div id="brand">
+                    <h1><a href="#">Maths the fun way!</a></h1> <!-- header is a link to home -->
+                </div>
+                <div id="searchBox">
+                    <form method="GET"> <!-- Using a form to create the seach input and button -->
+                        <input type="text" class="text" value="function">
+                        <input type="submit" value="Search a topic" class="submit">
+                    </form>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
     </body>
     <footer>
         

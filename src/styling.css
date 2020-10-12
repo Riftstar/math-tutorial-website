@@ -1,0 +1,52 @@
+#container {
+    width: 1050px;
+    margin: 0 auto; /* Margin top & bottom of 0 and left & right of auto centres the element */
+}
+
+h1 a{ /* Styling to colour and set the header text */
+    font-size: 50px;
+    font-weight: 100;
+    color: #a751d6;
+    text-decoration: none;
+}
+
+#header { /* Align the header element (contains both the title and search */
+    height: 100px;
+    padding: 10px 0px;
+}
+
+#brand { /* Float the title text to the left */
+    float: left;
+}
+
+#searchBox { /* Align the searchbox within the header */
+    float: right;
+    background: linear-gradient(#e4f2b9, #b7e953);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+}
+
+.text { /* Format the text entry field in the search box */
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #e36a0c;
+    /* Add a search image to the end of the text field */
+    background: white url(images/search.png) right center no-repeat;
+}
+
+.submit { /* Format the submit button */
+    float: right;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: #a751d6;    
+}
+
+.clear { /*  */
+    clear: both;
+}
