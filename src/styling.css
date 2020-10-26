@@ -90,3 +90,21 @@ ul {
     font-weight: bold;
     color: #b314db;
 }
+
+#introduction {
+    background: linear-gradient( #e5f2bb, #b7e952);
+    padding: 30px;
+    margin: 16px 0px;
+}
+
+#introduction h3 {
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+}
+
+#introduction p {
+    font-size: 25px;
+    color: #628f19;
+    text-align: justify;
+}
