@@ -108,3 +108,56 @@ ul {
     color: #628f19;
     text-align: justify;
 }
+
+.sidebar {
+    height: 500px;
+    width: 450px;
+    border: 1px solid #baf46f;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3 {
+    color: #b314db;
+    font-size: 30px;
+}
+
+.Sidebar ul {
+    padding-top: 8px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+}
+
+.sidebar ul li a:hover,  .sidebar ul li a:active{
+    text-decoration: none;
+    color:  #b314db;
+    font-size: 23px;
+    font-weight: bold;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease; /* safari */
+    -moz-transition: font-size 0.3s ease; /* Mozilla */
+    -o-transition: font-size 0.3s ease; /* opera */
+    -ms-transition: font-size 0.3s ease; /* IE */
+}
+
+#leftSidebar {
+    float: left;
+}
+
+
+#leftSidebar ul li {
+    padding: 4px 0 4px 10px;
+    list-style: url(images/arrow.png);
+}
+
+#rightSidebar {
+    float: right;
+}
+
+#rightSidebar ul li {
+    padding: 17px 0px 17px 70px;
+    background: url(images/tick.png) no-repeat left center;
+}
